@@ -1,0 +1,70 @@
+*{
+    margin : 0;
+    padding : 0;
+    }
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    width: 100%;
+    background:#000000;
+    color:#fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.mode {
+    margin-top:1rem;
+}
+
+.head{
+    margin-top: 1rem
+}
+
+.word{
+    margin-top: 0.00000000000001rem;
+    font-size: 80px;
+    color: #000000;
+}
+.input{
+    margin-top: 1rem;
+}
+
+.word-input{
+    padding: 0.5rem;
+    width: 300px;
+}
+
+.tool{
+    font-size: 11px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.time, .score {
+    font-size: 30px;
+}
+
+.button{
+    width: 200px;
+    height: 35px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.loading{
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.addthis_inline_share_toolbox {
+    margin-top:1rem;
+}
