@@ -35,7 +35,7 @@ function run (){
 } 
 
 function checkStatus(){
-    if (time === 0) {
+    if (!isPlaying && time === 0) {
         buttonChange('start game')
         clearInterval(checkInterval)
     }
