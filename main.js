@@ -18,7 +18,6 @@ function init(){
     buttonChange('start game');
     getWords();
     wordInput.addEventListener('input',checkMatch);
-    
 }
 
 function run (){
