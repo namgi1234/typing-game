@@ -1,2 +1,0 @@
-# typing-game
-typing-game

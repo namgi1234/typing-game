@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <meta name="typing-game" content="typing-game">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script src="http://code.jquery.com/jquery-3.5.1.min.js"></script> 
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5fd4309e0f1912e9"></script>
+</head>
+<body>
+   <div class="header">
+       <h1>Typing Gmae</h1>
+   </div>
+   <div class="mode">
+    Mode :<button onclick="iseasyMode()">easy</button>
+    <button onclick="ismediumMode()">medium</button>
+    <button onclick="ishardyMode()">hard</button>
+    </div>
+<div class="head">Word to type is</div>
+<div class="word">Hello </div>
+   <div class="input">
+       <input type="text"class="word-input"/>
+   </div>
+   <div>
+       <div class="tool">
+           <div>
+               Time : <span class="time">10</span>
+           </div>
+           <div>
+               Score : <span class="score">0</span>
+           </div>
+       </div>
+    </div>
+  <button class="button loading" onclick = "run()">To start game</button>
+     <!-- Go to www.addthis.com/dashboard to customize your tools -->
+     <div class="addthis_inline_share_toolbox"></div>
+  <script src="main.js"></script>
+  <script src="player.js"></script>
+</body>
+</html>
